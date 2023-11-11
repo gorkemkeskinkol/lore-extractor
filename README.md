@@ -1,1 +1,10 @@
-# lore-extractor
+# Lore Extractor Servisi
+
+## Proje Amacı
+Lore Extractor, metin tabanlı dijital içeriklerin arasından belirli öykü yapılarını otomatik olarak tespit edip, bunları zenginleştirme ve genişletme amacı taşıyan bir servistir. Yazılım geliştirme sürecinde, projelerin dokümantasyonlarına ve kod açıklamalarına katma değer sağlamak için tasarlanmıştır. Bu servis, geliştiricilere ve içerik üreticilerine, yazılı belgeler içerisinde yer alan kurgusal veya konseptsel öğeleri otomatik olarak algılayarak, bunları daha detaylı ve anlatıma uygun hale getirerek sunar. Proje, açık kaynak topluluğundan ilham alarak, belgeler arasında bir hikaye bağlamı oluşturmayı ve bu şekilde teknik içeriği daha anlaşılır ve etkileşimli kılmayı hedefler.
+
+## Çalışma Prensibi
+Lore Extractor, belirli bir dizinde yer alan Markdown dosyalarını tarayarak, içerisinde yer alan özel işaretlenmiş (<!-- lore --> ve <!-- /lore --> etiketleri arasındaki) bölümleri tespit eder. Eğer bu bölümler mevcut değilse, otomatik olarak ekler ve var olan bölümleri daha da zenginleştirir. Bunu yaparken, yapay zeka destekli bir metin üretici kullanarak her bir belge için özgün ve bağlamsal olarak uygun hikaye öğeleri oluşturur. Bu işlem, yazılımın kendine özgü bir kişiliğe sahip olmasını ve teknik dokümanların sadece işlevsel bilgi kaynakları olmanın ötesine geçerek, okuyucular için daha ilgi çekici hale gelmesini sağlar.
+
+## Kullanıcı Etkileşimi
+Kullanıcılar, CLI (Command Line Interface) üzerinden Lore Extractor servisini parametrelerle birlikte çağırabilirler. Servis, kullanıcının belirttiği dizindeki tüm Markdown dosyalarını tarar ve her birine, kullanıcının belirttiği sayıda paralel evren öyküsü ekler. Bu öyküler, projenin bağlamına ve içeriğine uygun olarak özelleştirilebilir. Kullanıcı, bu öyküler aracılığıyla teknik içeriğin yanı sıra projenin hikayesini de zenginleştirme fırsatı bulur. Ayrıca, servis kullanıcıdan alınan dizin yapısını da kullanarak, daha kapsamlı ve yapılandırılmış bir hikaye üretebilir.
